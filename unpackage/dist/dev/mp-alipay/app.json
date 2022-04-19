@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/rent/rent",
+    "pages/tender/tender",
+    "pages/user/user",
+    "components/carItem",
+    "pages/user/login",
+    "pages/setting/setting",
+    "pages/setting/protocol",
+    "pages/setting/privacy",
+    "pages/setting/fqa",
+    "pages/setting/about",
+    "pages/setting/logout",
+    "pages/order/myorder",
+    "pages/auth/auth",
+    "pages/user/share",
+    "pages/user/wallet/wallet",
+    "pages/user/wallet/coupon",
+    "pages/user/wallet/incomeDetail",
+    "pages/user/wallet/valueCard",
+    "pages/user/wallet/vipExplain",
+    "pages/choosecar/choosecar",
+    "pages/order/ordercar",
+    "pages/order/schedulecar",
+    "pages/city/addressSearch",
+    "pages/choosecar/transfer",
+    "pages/choosecar/needDriver",
+    "pages/tender/tenderCar",
+    "pages/user/applogin",
+    "components/orderItem",
+    "components/nothing",
+    "pages/order/orderDetail",
+    "components/bmContainer"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "酷享出行",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#333333"
+  },
+  "tabBar": {
+    "textColor": "#999999",
+    "selectedColor": "#333333",
+    "backgroundColor": "#fafafa",
+    "items": [
+      {
+        "pagePath": "pages/rent/rent",
+        "name": "租车",
+        "icon": "./static/images/tabbar_rent_off@2x.png",
+        "activeIcon": "./static/images/tabbar_rent_on@2x.png"
+      },
+      {
+        "pagePath": "pages/tender/tender",
+        "name": "成为车主",
+        "icon": "./static/images/tabbar_tender_off@2x.png",
+        "activeIcon": "./static/images/tabbar_tender_on@2x.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "name": "我的",
+        "icon": "./static/images/tabbar_user_off@2x.png",
+        "activeIcon": "./static/images/tabbar_user_on@2x.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

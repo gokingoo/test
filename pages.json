@@ -1,0 +1,388 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/rent/rent",
+			"style": {
+
+				"enablePullDownRefresh": true
+
+			}
+		},
+		{
+			"path": "pages/tender/tender",
+			"style": {
+				"navigationBarTitleText": "成为车主"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "components/carItem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+				// "enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/setting/protocol",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/setting/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私协议",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/setting/fqa",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/setting/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/setting/logout",
+			"style": {
+				"navigationBarTitleText": "退出",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/order/myorder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/auth/auth",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/share",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/wallet/coupon",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/wallet/incomeDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/user/wallet/valueCard",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/wallet/vipExplain",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/choosecar/choosecar",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/order/ordercar",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/order/schedulecar",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/city/addressSearch",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/choosecar/transfer",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/choosecar/needDriver",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/tender/tenderCar",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/applogin",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "components/orderItem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "components/nothing",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/orderDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/orderPay",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/city/serviceArea",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "components/couponItem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "components/addressItem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/bmw",
+			"style": {
+				"navigationBarTitleText": "升级订单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/pay",
+			"style": {
+				"navigationBarTitleText": "支付订单",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/order/chargeDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/invoice/invoice",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "components/areaSelect",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/invoice/invoiceChoose",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "components/invoiceItem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			
+			}
+
+		}, {
+			"path": "pages/invoice/invoiceRecord",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+				
+			}
+
+		}, {
+			"path": "components/recordItem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "components/incomeItem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+	    ,{
+            "path" : "pages/order/violate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/violateItem",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "酷享出行",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#333333"
+	},
+	"lazyCodeLoading": "requiredComponents",
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#333333",
+		"backgroundColor": "#fafafa",
+		"list": [{
+				"text": "租车",
+				"pagePath": "pages/rent/rent",
+				"iconPath": "./static/images/tabbar_rent_off@2x.png",
+				"selectedIconPath": "./static/images/tabbar_rent_on@2x.png"
+			},
+			{
+				"text": "成为车主",
+				"pagePath": "pages/tender/tender",
+				"iconPath": "./static/images/tabbar_tender_off@2x.png",
+				"selectedIconPath": "./static/images/tabbar_tender_on@2x.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/user/user",
+				"iconPath": "./static/images/tabbar_user_off@2x.png",
+				"selectedIconPath": "./static/images/tabbar_user_on@2x.png"
+			}
+		]
+	}
+}

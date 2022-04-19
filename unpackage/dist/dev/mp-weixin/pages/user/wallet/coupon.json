@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "coupon-item": "/components/couponItem",
+    "nothing": "/components/nothing"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "mx-date-picker": "/components/mx-datepicker/mx-datepicker"
+  }
+}

@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['onItemClick',['$event']]]]]}}" class="contain _div data-v-31736fbc" bindtap="__e"><text class="t-text data-v-31736fbc">{{addressData.title}}</text><text class="text-gray data-v-31736fbc" style="margin-top:5rpx;">{{addressData.address}}</text></view>

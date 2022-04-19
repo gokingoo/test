@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "invoice-item": "/components/invoiceItem",
+    "nothing": "/components/nothing"
+  }
+}

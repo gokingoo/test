@@ -1,0 +1,1 @@
+<view><view class="cell _div"><image class="img1" src="{{imgSrc1}}"></image><image class="img2" src="{{imgSrc2}}"></image></view><view data-event-opts="{{[['tap',[['toChoose',['$event']]]]]}}" class="contain" style="padding:20rpx;margin:10rpx;" bindtap="__e"><button class="confirm-btn">我有意向成为车主</button></view></view>

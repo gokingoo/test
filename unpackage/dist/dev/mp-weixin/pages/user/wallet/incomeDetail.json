@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "nothing": "/components/nothing",
+    "income-item": "/components/incomeItem"
+  }
+}

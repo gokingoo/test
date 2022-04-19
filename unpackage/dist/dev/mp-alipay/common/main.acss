@@ -1,0 +1,321 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+/**
+ * 这里编写 sass 之后，可在 vue 的 style 标签中通过 @import 相对路径引入
+ * 注意 style 标签的 lang 属性需要设置为 scss/sass
+ */
+page
+{
+	background-color: #f8f8f8;
+}
+.wrapper {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.button {
+    text-align: center;
+    border-style: solid;
+    color: #ffffff;
+    border-color: #1da1f2;
+    border-radius: 15px;
+    background-color: #1da1f2;
+}
+.border-contain {
+    background-color: #ffffff;
+    border-radius: 15rpx;
+    overflow: hidden;
+}
+.button-big {
+    width: 400rpx;
+    height: 90rpx;
+    margin-top: 60;
+    font-size: 34px;
+    padding-top: 25px;
+    border-width: 2px;
+}
+.button-small {
+    width: 180rpx;
+    height: 80rpx;
+    margin-top: 3px;
+    font-size: 32px;
+    padding-top: 18px;
+    border-width: 1px;
+}
+.label {
+    width: 500rpx;
+    height: 80rpx;
+    /*top: 70rpx;*/
+    margin-top: 40px;
+    font-size: 34px;
+    text-align: center;
+    color: #7d7d7d;
+    font-weight: 500px;
+}
+.layout {
+    width: 500rpx;
+    height: 80rpx;
+    margin-top: 50px;
+    padding-left: 10px;
+    color: #000000;
+    font-size: 34px;
+    border-width: 1px;
+    border-radius: 12px;
+}
+.panel {
+    background-color: #ffffff;
+    width: 700rpx;
+    height: 100rpx;
+    padding-left: 24px;
+    justify-content: center;
+    border-bottom-width: 1px;
+    border-bottom-color: #b9b9b9;
+    border-style: solid;
+}
+.text {
+    font-size: 30rpx;
+    color: #7d7d7d;
+    font-weight: 400rpx;
+}
+.arrtName {
+    font-weight: 700px;
+}
+.touch-bar {
+    height: 68rpx;
+    width: 750rpx;
+}
+.list {
+    margin: 0;
+    padding: 0;
+}
+.cell {
+	font-size:0
+}
+.flex-row {
+	display: flex;
+    flex-direction: row;
+}
+.flex1 {
+    flex: 1;
+}
+.align {
+    align-items: center;
+}
+.order-contain {
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.border-btn {
+    background-color: #fafafa;
+    font-size: 24px;
+    padding: 0 15px;
+    line-height: 50px;
+    border-width: 1px;
+    border-color: #989898;
+    border-radius: 50px;
+    color: #999999;
+}
+.margin20 {
+    margin: 20rpx;
+}
+.text-black {
+    font-size: 24rpx;
+    color: #333333;
+}
+.text-black-25 {
+  font-size: 25rpx;
+  color: #333333;
+}
+.text-gray {
+    font-size: 26rpx;
+    color: #999999;
+}
+.text-white {
+    font-size: 28rpx;
+    color: #ffffff;
+}
+.text-yellow {
+    font-size: 26rpx;
+    color: #ff6004;
+}
+.margin-bottom20 {
+    margin-bottom: 20px;
+}
+.margin-top20 {
+    margin-top: 13rpx;
+}
+.margin-left20 {
+    margin-left: 20rpx;
+}
+.margin-right20 {
+    margin-right: 20rpx;
+}
+.padding-right5 {
+  padding-right: 5rpx;
+}
+.margin-top5 {
+    margin-top: 5px;
+}
+.line-gray {
+    width: 720rpx;
+    height: 1px;
+    background-color: #cccccc;
+}
+.radio-img {
+    width: 45rpx;
+    height: 45rpx;
+    margin: 20px;
+}
+.point-right {
+    width: 15rpx;
+    height: 30rpx;
+}
+.border-black {
+    /* width: 580rpx; */
+    background-color: #595959;
+    border-radius: 15px;
+}
+.vip-comm {
+    color: #dda76f;
+    font-size: 18px;
+}
+.header-photo {
+    margin-top: 10rpx;
+    height: 100rpx;
+    width: 100rpx;
+    border-radius: 100rpx;
+}
+.vip-img {
+    width: 40rpx;
+    height: 25rpx;
+    margin-left: 110rpx;
+}
+.vip-tag-img {
+    width: 29rpx;
+    height: 21rpx;
+    margin-right: 5px;
+}
+.vip-text {
+    height: 25rpx;
+    line-height: 25rpx;
+    padding-right: 8rpx;
+    background-color: #414141;
+    font-size: 20rpx;
+    color: #dda76f;
+}
+.vip-tag-contain {
+    height: 32rpx;
+    margin-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #fdceb2;
+    border-radius: 5px;
+}
+.vip-tag-text {
+    height: 32rpx;
+    line-height: 32rpx;
+    font-size: 22rpx;
+    color: #ff6004;
+}
+.input {
+    width: 650rpx;
+    height: 85rpx;
+    color: #333333;
+    font-size: 28rpx;
+    padding: 0px 10px;
+}
+.addr-img {
+    width: 35rpx;
+    height: 35rpx;
+    margin: 10px 0px;
+}
+.down {
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 16rpx;
+    height: 8rpx;
+}
+.line-img {
+    width: 200rpx;
+    height: 10rpx;
+    margin-top: 5px;
+}
+.question-img {
+    width: 30rpx;
+    height: 30rpx;
+    margin-left: 25px;
+}
+.check-img {
+    width: 80rpx;
+    height: 41rpx;
+}
+.text-area {
+    /* width: 660rpx; */
+    background-color: #fafafa;
+    color: #333333;
+    border-width: 1px;
+    border-color: #989898;
+    border-radius: 15px;
+    margin: 30rpx;
+    padding: 20rpx;
+    font-size: 25rpx;
+}
+.btn {
+    margin-top: 50rpx;
+    margin-bottom: 100rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    height: 80rpx;
+    text-align: center;
+    background-color: #333333;
+    font-size: 28rpx;
+    line-height: 80rpx;
+    border-width: 1px;
+    border-color: #989898;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.ali-img {
+    width: 50rpx;
+    height: 50rpx;
+    margin: 20px 30px;
+}
+.tel-img {
+    width: 31rpx;
+    height: 27rpx;
+    margin-left: 30px;
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+    /* margin-right: 20px; */
+}
+.order-item-text {
+    width: 440rpx;
+    font-size: 28px;
+    color: #333333;
+}
+.order-item-num {
+    width: 80rpx;
+    font-size: 28px;
+    color: #333333;
+}
+.order-item-amount {
+    width: 120rpx;
+    margin-left: 10px;
+    color: #ff6004;
+    font-size: 28px;
+}
+

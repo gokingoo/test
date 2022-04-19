@@ -1,0 +1,1 @@
+<view class="content"><button open-type="getAuthorize" scope="phoneNumber" data-event-opts="{{[['getAuthorize',[['$onAliGetAuthorize',['onGetPhoneNumber','$event']]]],['error',[['$onAliAuthError',['onGetPhoneNumber','$event']]]]]}}" onGetAuthorize="__e" onError="__e">手机登录</button></view>
